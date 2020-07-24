@@ -1,5 +1,6 @@
 -i https://pypi.org/simple
 decorator==4.4.2
+gunicorn==19.9.0
 defusedxml==0.6.0
 flask==1.1.2
 h5py==2.10.0
@@ -13,7 +14,7 @@ keras-preprocessing==1.1.2
 numpy==1.18.4
 opencv-python==4.2.0.34
 opt-einsum==3.2.1
-pandas==1.0.3
+pandas==1.0.3	
 pickleshare==0.7.5
 python-dateutil==2.8.1
 tensorflow==1.0.1
