@@ -8,7 +8,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 
 class VideoCamera(object):
     def __init__(self):
-        self.video = cv2.VideoCapture('C:\\Users\\anuj\\Desktop\\Coursera\\Facial Recognition with keras\\Project\\videos\\test3.mp4.')
+        self.video = cv2.VideoCapture('videos/test3.mp4.')
 
     def __del__(self):
         self.video.release()
